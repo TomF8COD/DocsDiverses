@@ -16,16 +16,32 @@ Les transmissions qui nous intéressent sun les pulse à 1Hz et 10Hz.
 
 Callez votre recepteur en USB sur l'une de ces fréquences moins 1kHz (eg: 9995kHz).
 Dans fldigi, configurez votre offset à 1000 puis cliquez sur le menu Vue/scope flottant.
-Agrandissez la fenêtre de ce dernier vers le bas pour bénéficier d'un enregistremet assez long du signal
+Agrandissez la fenêtre de ce dernier vers le bas pour bénéficier d'un enregistremet assez long du signal.
 
-Cliquez avec le bouton gauche pour centrer le signal voulu et cliquez avec le bouton droit pour zoomer (+-)
+.. figure:: ../pictures/fldigifloatingscope.jpg
+  :alt: scope flottant
+  :width: 90
+  :align: center
+Cliquez avec le bouton gauche pour centrer le signal voulu et cliquez avec le bouton droit pour zoomer (+-).
+
 
 Ouvrez le menu de config, puis allez sur Soundcard/Settings.
 
-Menu de configuration de la carte son
+.. figure:: ../pictures/fldigisndsettings.jpg
+  :alt: configuration
+  :align: center
+Menu de configuration de la carte son.
 
 Si le signal dérive vers la droite, augmentez la valeur RX ppm (à 50 ou 100ppm).
 S'il dérive à gauche diminuez le.
+Vous pouvez dégrossir la correction assez rapidement, re-calez le signal si besoin et affinez le
+réglage en laissant le signal s'enregisttrer un peu plus longtemps.
+
+.. figure:: ../pictures/fldigifloatingscope1Hz10Hz.jpg
+  :alt: derrive corrigée
+  :align: center
+
+Signal de 1Hz puis de 10Hz.
 
 Une fois que le signal ne diminue plus, enrgistrez votre réglage.
 

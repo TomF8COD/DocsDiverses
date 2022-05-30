@@ -15,7 +15,7 @@ Ce schéma se répète toutes les 30mn.
 Les transmissions qui nous intéressent sun les pulse à 1Hz et 10Hz.
 
 Callez votre recepteur en USB sur l'une de ces fréquences moins 1kHz (eg: 9995kHz).
-Dans fldigi, configurez votre offset à 1000 puis cliquez sur le menu Vue/scope flottant.
+Dans fldigi, configurez le mode sur WWV et votre offset à 1000 puis cliquez sur le menu Vue/scope flottant.
 Agrandissez la fenêtre de ce dernier vers le bas pour bénéficier d'un enregistremet assez long du signal.
 
 .. figure:: ../pictures/fldigifloatingscope.jpg

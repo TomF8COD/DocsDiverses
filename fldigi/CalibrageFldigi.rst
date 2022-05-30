@@ -1,6 +1,9 @@
 **Calibrage de la carte son sous Fldigi**
 ==========================================
 
+Si vous possedez un poste un peu ancien, laissez le chauffer 30mn pour vous
+assurer qu'il a atteint sa stabilité en fréquence optimale.
+
 Pour ne pas avoir de problème d'alignement vertical lors de la recep d'images,
 Il est nécessaire d'entrer un facteur de correction de la fréquence d'horloge 
 de la carte son.
